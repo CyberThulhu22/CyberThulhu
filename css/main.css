@@ -17,7 +17,7 @@ p {
 	font-family: 'Press Start 2P', cursive;
 	padding: 80px;
 	text-align: center;
-	background: x000000;
+	background: #000000;
 	color: #7FFF00;
 }
 
@@ -31,6 +31,7 @@ p {
 .navbar {
 	overflow: hidden;
 	background-color: #333;
+	color: #7FFF00;
 	position: sticky;
 	position: -webkit-sticky;
 	top: 0;
