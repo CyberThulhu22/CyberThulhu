@@ -22,23 +22,27 @@ p {
 	background: #000000;
 	color: #7FFF00;
 }
-
-/* */
 .header h1 {
 		font-size: 40px;
 		font-family: 'Press Start 2P', cursive;
 }
+.header p {
+		font-family: 'Press Start 2P', cursive;
+		text-align: center;
+		background-color: #000000;
+		color: #7FFF00;
+}
 
 /* */
 .navbar {
-	background-color: #333;
-	color: #7FFF00;
+		background-color: #333;
+		color: #7FFF00;
 
-	overflow: hidden;
+		overflow: hidden;
 
-	position: sticky;
-	position: -webkit-sticky;
-	top: 0;
+		position: sticky;
+		position: -webkit-sticky;
+		top: 0;
 
-	height: 30px;
+		height: 30px;
 }
