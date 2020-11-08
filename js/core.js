@@ -1,7 +1,7 @@
-function typeWriter(txt) {
+function typeWriter() {
 	// Typing Text...
-	var i = 0;
-	var speed = 30; /* The Speed/Duration of the effect in milliseconds*/
+	var txt = "CyberThulhu's Main Page";
+	var speed = 100; /* The Speed/Duration of the effect in milliseconds*/
 
 	if (i < txt.length){
 		document.getElementById("demo").innerHTML += txt.charAt(i);
