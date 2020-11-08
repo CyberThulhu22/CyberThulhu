@@ -13,6 +13,21 @@ p {
 		font-family: 'Press Start 2P', cursive;
 }
 
+.header {
+	font-family: 'Press Start 2P', cursive;
+	padding: 80px;
+	text-align: center;
+	background: x000000;
+	color: #7FFF00;
+}
+
+/* */
+.header h1 {
+		font-size: 40px;
+		font-family: 'Press Start 2P', cursive;
+}
+
+/* */
 .navbar {
 	overflow: hidden;
 	background-color: #333;
