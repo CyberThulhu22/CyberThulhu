@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+
 /* */
 body {
 		font-family: 'Press Start 2P', cursive;
@@ -25,6 +27,8 @@ p {
 .header h1 {
 		font-size: 40px;
 		font-family: 'Press Start 2P', cursive;
+		overflow: hidden;
+		position: relative;
 }
 .header p {
 		font-family: 'Press Start 2P', cursive;
@@ -45,4 +49,45 @@ p {
 		top: 0;
 
 		height: 30px;
+}
+
+#parent {
+  height: 40px;
+  white-space: nowrap;
+  overflow: hidden;
+  font-family: 'Source Code Pro', monospace;  
+  font-size: 28px;
+  color: rgba(255,255,255,.70);
+  position:	relative;
+}
+
+#border {
+  border-bottom: solid 3px rgba(0,255,0,.75);
+  overflow: hidden;
+  position: absolute;
+  right: 0px;
+  width: 20px;
+}
+
+/* Animation */
+#parent {
+  animation: animated-text 5s steps(30,end) 1s 1 normal both
+}
+
+#border {
+   animation: animated-cursor 600ms steps(10,end) infinite;
+}
+
+/* text animation */
+
+@keyframes animated-text{
+  from{width: 0px;}
+  to{width: 580px;}
+}
+
+/* cursor animations */
+
+@keyframes animated-cursor{
+  from{width: 20px; border-bottom-color: rgba(0,255,0,.75);}
+  to{width: 20px; border-bottom-color: transparent;}
 }
