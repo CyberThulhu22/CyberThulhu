@@ -1,3 +1,4 @@
+var i = 0
 function typeWriter() {
 	// Typing Text...
 	var txt = "CyberThulhu's Main Page";
