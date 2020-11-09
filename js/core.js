@@ -1,4 +1,5 @@
-var i = 0
+var i = 0;
+
 function typeWriter() {
 	// Typing Text...
 	var speed = 70; /* The Speed/Duration of the effect in milliseconds*/
@@ -10,9 +11,7 @@ function typeWriter() {
 	}
 };
 
-function blink() {
-	var f = document.getElementById('blink');
-	setInterval( function() {
-		f.style.display = (f.style.display == 'none' ? '' : 'none');
-	}, 1000);
+function welcome_alert() {
+	// Welcome Page Alert Box
+	window.alert("Welcome to My Page");
 };

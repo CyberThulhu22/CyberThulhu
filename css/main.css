@@ -39,21 +39,21 @@ p {
 
 /* */
 .navbar {
-		background-color: #333;
-		color: #7FFF00;
 
 		overflow: hidden;
-
 		position: sticky;
 		position: -webkit-sticky;
-		top: 0;
-
-		height: 30px;
+		top: 15px;
+		height: 50px;
+		background-color: #333;
+		color: #7FFF00;
 }
 
 #parent {
   height: 40px;
   white-space: nowrap;
+  text-align: center;
+  margin: 10px auto 10px auto;
   overflow: hidden;
   font-family: 'Source Code Pro', monospace;  
   font-size: 28px;
@@ -71,18 +71,18 @@ p {
 
 /* Animation */
 #parent {
-  animation: animated-text 2s steps(30,end) 1s 1 normal both
+  animation: animated-text 2s steps(33,end) 1s 1 normal both;
 }
 
 #border {
-   animation: animated-cursor 600ms steps(10,end) infinite;
+   animation: animated-cursor 600ms steps(33,end) infinite;
 }
 
 /* text animation */
 
 @keyframes animated-text{
   from{width: 0px;}
-  to{width: 580px;}
+  to{width: 520px;}
 }
 
 /* cursor animations */
