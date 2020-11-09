@@ -2,6 +2,7 @@
 
 body {
 	/* Defines the document's body */
+
 }
 
 
@@ -13,6 +14,7 @@ header {
 
 section {
 	/* Defines a section in a document */
+
 }
 
 
@@ -26,7 +28,7 @@ div {
 /* Navigation Tags*/
 nav {
 	/* 	Defines navigation links */
-	
+
 }
 
 
@@ -105,6 +107,24 @@ blockquote {
 	/* Defines a section that is quoted from another source */
 
 }
+
+pre {
+	/* Defines preformatted text */
+
+}
+
+
+q {
+	/* Defines a short quotation */
+
+}
+
+
+p {
+	/* Defines a paragraph */
+
+}
+
 
 
 /* Tables and List Tags */
