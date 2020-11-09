@@ -1,0 +1,5 @@
+User-agent: *
+Crawl-delay: 50
+Disallow: /images/
+Disallow: /js/*.js$
+Disallow: /blog/*.html$
