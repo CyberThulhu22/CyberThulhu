@@ -3,7 +3,7 @@
 /* */
 body {
 		font-family: 'Press Start 2P', cursive;
-		background-color: #696969;
+		background-color: #000000;
 }
 
 /* */
@@ -45,7 +45,7 @@ p {
 		position: -webkit-sticky;
 		top: 15px;
 		height: 50px;
-		background-color: #333;
+		background-color: #7FFF00;
 		color: #7FFF00;
 }
 
