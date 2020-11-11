@@ -1,5 +1,6 @@
 /* */
 body {
+	margin: 0
 	font-family: 'Press Start 2P', cursive;
 	margin: 0;
 	background-color: #000000;
@@ -73,7 +74,6 @@ img {
 	position: sticky;
 	position: -webkit-sticky;
 	background-color: #333;
-	color: #7FFF00;
 }
 .navbar a {
 	float: all;
@@ -81,15 +81,18 @@ img {
 	text-align: center;
 	text-decoration: none;
 	font-size: 17px;
-	color: #ddd;
+	color: #f2f2f2;
 }
 .navbar a:hover {
 	background-color: black;
-	color: #7FFF00;
+	color: black;
 }
 .navbar a.active {
 	background-color: #4caf50;
 	color: white;
+}
+.navbar a.active:hover {
+
 }
 /*====================================================================================================*/
 #parent {
