@@ -53,6 +53,42 @@ header {
 	border: 5px solid #7FF000;
 	border-radius: 50%;
 }
+#parent {
+  height: 40px;
+  white-space: nowrap;
+  text-align: center;
+  margin: 10px auto 10px auto;
+  overflow: hidden;
+  font-family: 'Source Code Pro', monospace;  
+  font-size: 28px;
+  color: rgba(255,255,255,.70);
+  position:	relative;
+}
+#border {
+  border-bottom: solid 3px rgba(0,255,0,.75);
+  overflow: hidden;
+  position: absolute;
+  right: 0px;
+  width: 20px;
+}
+/* Animation */
+#parent {
+  animation: animated-text 2s steps(45,end) 0s 1 normal both;
+}
+#border {
+   animation: animated-cursor 600ms steps(45,end) infinite;
+}
+/* text animation */
+@keyframes animated-text{
+  from{width: 0px;}
+  to{width: 725px;}
+}
+/* cursor animations */
+@keyframes animated-cursor{
+  from{width: 20px; border-bottom-color: rgba(0,255,0,.75);}
+  to{width: 20px; border-bottom-color: transparent;}
+}
+
 
 
 section {
@@ -68,7 +104,6 @@ section {
 div {
 	/* Defines a section in a document */
 }
-
 
 
 
@@ -142,6 +177,8 @@ footer {
 	text-align: center;
 	white-space: nowrap;
 }
+
+
 
 
 

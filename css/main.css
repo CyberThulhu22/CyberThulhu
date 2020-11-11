@@ -27,7 +27,6 @@ header {
 
 }
 .header {
-
 	font-family: 'Press Start 2P', cursive;
 	padding: 10px;
 	text-align: center;
@@ -35,23 +34,24 @@ header {
 	color: #7FFF00;
 }
 .header h1 {
-
 	font-size: 40px;
 	font-family: 'Press Start 2P', cursive;
 	overflow: hidden;
 	position: relative;
 }
-.header p {
 
+.header p {
 	font-family: 'Press Start 2P', cursive;
 	text-align: center;
 	background-color: #000000;
 	color: #7FFF00;
 }
+
 .header img {
 	border: 5px solid #7FF000;
 	border-radius: 50%;
 }
+
 section {
 
 }
