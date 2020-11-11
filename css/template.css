@@ -7,23 +7,43 @@ body {
 	background: #000000;
 	color: #7FF000;
 }
-
+.grid-container {
+	display: grid;
+	grid-template-areas: 
+		'header header header header'
+		'navbar navbar navbar navbar'
+		'menu main main main'
+		'menu footer footer footer';
+	grid-gap: 0px;
+	background-color: #000000;
+	padding: 10px;
+	margin: 0;
+}
+.grid-container div {
+	margin: 0
+	text-align: center;
+	font-size: 30px;
+}
 
 header {
 	/* Defines a header for a document or section */
 
 }
 /*TOPHEAD*/
+.tophead img {
+	grid-area: image;
+	border: 5px solid #7FF000;
+	border-radius: 50%;
+}
 .tophead {
+	grid-area: header;
 	text-align: center;
 	white-space: nowrap;
 	overflow: hidden;
 
 }
-.tophead img {
-	border-color: #7FF000;
-	border-radius: 50%;
-}
+
+
 
 section {
 	/* Defines a section in a document */
@@ -48,6 +68,7 @@ nav {
 }
 /*TOPNAV*/
 .topnav {
+	grid-area: navbar;
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
@@ -74,6 +95,7 @@ nav {
 .topnav a.active:hover {
 	background-color: #7FF000;
 	color: black;
+	text-shadow: 0px 0px 15px #333;
 }
 .topnav a.active {
 	background-color: #4caf50;
