@@ -18,6 +18,10 @@ p {
 		background: #333;
 }
 
+img {
+	border-radius: 50%;	
+}
+
 .header {
 	font-family: 'Press Start 2P', cursive;
 	padding: 80px;
