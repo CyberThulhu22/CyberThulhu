@@ -62,16 +62,21 @@ img {
 
 /*====================================================================================================*/
 .navbar {
+	grid-area: navbar;
+	margin: 0;
+	padding: 0;
 	overflow: hidden;
-	position: sticky;
-	position: -webkit-sticky;
+	list-style-type: none;
+	text-align: center;
 	top: 0px;
 	height: 40px;
-	background-color: #7FFF00;
+	position: sticky;
+	position: -webkit-sticky;
+	background-color: #333;
 	color: #7FFF00;
 }
 .navbar a {
-	float: left;
+	float: all;
 	padding: 14px 16px;
 	text-align: center;
 	text-decoration: none;
