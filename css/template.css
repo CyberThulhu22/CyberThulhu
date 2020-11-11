@@ -13,7 +13,7 @@ body {
 		'header header header header'
 		'navbar navbar navbar navbar'
 		'menu main main main'
-		'menu footer footer footer';
+		'footer footer footer footer';
 	grid-gap: 0px;
 	background-color: #000000;
 	padding: 10px;
@@ -27,33 +27,28 @@ body {
 
 header {
 	/* Defines a header for a document or section */
-
 }
 /*TOPHEAD*/
-.tophead img {
-	grid-area: image;
-	border: 5px solid #7FF000;
-	border-radius: 50%;
-}
 .tophead {
 	grid-area: header;
 	text-align: center;
 	white-space: nowrap;
 	overflow: hidden;
-
 }
-
+.tophead img {
+	grid-area: image;
+	border: 5px solid #7FF000;
+	border-radius: 50%;
+}
 
 
 section {
 	/* Defines a section in a document */
-
 }
 
 
 div {
 	/* Defines a section in a document */
-
 }
 
 
@@ -64,7 +59,6 @@ div {
 /* Navigation Tags */
 nav {
 	/* 	Defines navigation links */
-
 }
 /*TOPNAV*/
 .topnav {
@@ -105,19 +99,16 @@ nav {
 
 button {
 	/* Defines a clickable button */
-
 }
 
 
 option {
 	/* Defines an option in a drop-down list */
-
 }
 
 
 a {
 	/* Defines a hyperlink */
-
 }
 
 
@@ -128,7 +119,6 @@ u {
 
 footer {
 	/* Defines a footer for a document or section */
-
 }
 
 
@@ -139,33 +129,21 @@ footer {
 /* Header Tags */
 
 h1 {
-
 }
-
 
 h2 {
-
 }
-
 
 h3 {
-
 }
-
 
 h4 {
-
 }
-
 
 h5 {
-
-
 }
 
-
 h6 {
-
 }
 
 
@@ -174,32 +152,26 @@ h6 {
 
 
 /* Article Specific Tags */
-
 article {
 	/* Defines an article */
-
 }
 
 blockquote {
 	/* Defines a section that is quoted from another source */
-
 }
 
 pre {
 	/* Defines preformatted text */
-
 }
 
 
 q {
 	/* Defines a short quotation */
-
 }
 
 
 p {
 	/* Defines a paragraph */
-
 }
 
 
@@ -208,49 +180,40 @@ p {
 
 
 /* Tables and List Tags */
-
 table {
 	/* Defines a table */
-
 }
 
 
 tbody {
 	/* Groups the body content in a table */
-
 }
 
 
 tfoot {
 	/* Groups the footer content in a table */
-
 }
 
 
 th {
 	/* Defines a header cell in a table s*/
-
 }
 
 
 tr {
 	/* Defines a row in a table */
-
 }
 
 ol {
 	/* Defines an ordered list */
-
 }
 
 
 ul {
 	/* 	Defines an unordered list */
-
 }
 
 
 li {
 	/* Defines a list item */
-
 }
