@@ -11,16 +11,17 @@
 <body>
 	<!-- Header -->
 	<header class="header">
-		<img src="./images/Cthulhu_Cyber.PNG" height="200" width="200">
-		<h1><div id="demo"></div></h1>
-		<script type="text/javascript">	typeWriter(); </script>
-		<div id="parent">Security Research, Made Simple<div id="border"></div></div>
-
+		<div class="grid-item">
+			<img src="./images/Cthulhu_Cyber.PNG" height="200" width="200">
+			<h1><div id="demo"></div></h1>
+			<script type="text/javascript">	typeWriter(); </script>
+			<div id="parent">Security Research, Made Simple<div id="border"></div></div>
+		</div>
 	</header>
 	<!-- Navigation Bar-->
 	<nav class="navbar">
 		<div class="grid-item">
-			<a href="https://cyberthulhu.net/">HOME</a>
+			<a class="active" href="https://cyberthulhu.net/">HOME</a>
 			<a href="https://cyberthulhu.net/blog.html">BLOG</a>
 			<a href="https://cyberthulhu.net/writeups.html">WRITEUPS</a>
 			<a href="#about_me">ABOUT</a>
@@ -28,9 +29,11 @@
 		</div>
 	</nav>
 
-	<div id="main_page_paragraph">
-		<p>This is my main page. It is a work in progress</p>
-	</div>
+	<section class="sidemenu">
+		<div id="main_page_paragraph">
+			<p>This is my main page. It is a work in progress</p>
+		</div>
+	</section>
 
 	<div id="about_me">
 		<p>This is my About Me Section</p>
@@ -40,9 +43,13 @@
 		<p>This is my Contact me Section</p>
 	</div>
 
-	<footer>
-		<p>My Footer Section</p>
-		<a href="#top">Top of the Page</a>		
+
+
+	<footer class="bottomfoot">
+		<div class="grid-item">
+			<p>My Footer Section</p>
+			<a href="#top">Top of the Page</a>		
+		</div>
 	</footer>
 
 
