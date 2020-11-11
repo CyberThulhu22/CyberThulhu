@@ -11,6 +11,7 @@ header {
 	/* Defines a header for a document or section */
 
 }
+/*TOPHEAD*/
 
 
 section {
@@ -26,14 +27,25 @@ div {
 
 
 
+
+
+
 /* Navigation Tags */
 nav {
 	/* 	Defines navigation links */
 
 }
-/*TOPNAV BAR*/
+/*TOPNAV*/
 .topnav {
+	margin: 0;
+	padding: 0;
 	overflow: hidden;
+	list-style-type: none;
+	text-align: center;
+	top: 0;
+	height: 40px;
+	position: sticky;
+	position: -webkit-sticky;
 	background-color: #333;
 }
 .topnav a {
@@ -45,7 +57,11 @@ nav {
 	color: #f2f2f2;
 }
 .topnav a:hover {
-	background-color: #ddd;
+	background-color: #7FF000;
+	color: black;
+}
+.topnav a.active:hover {
+	background-color: #7FF000;
 	color: black;
 }
 .topnav a.active {
@@ -84,6 +100,9 @@ footer {
 
 
 
+
+
+
 /* Header Tags */
 
 h1 {
@@ -118,6 +137,9 @@ h6 {
 
 
 
+
+
+
 /* Article Specific Tags */
 
 article {
@@ -146,6 +168,9 @@ p {
 	/* Defines a paragraph */
 
 }
+
+
+
 
 
 
