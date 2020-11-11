@@ -10,10 +10,10 @@ body {
 .grid-container {
 	display: grid;
 	grid-template-areas: 
-		'header header header header'
-		'navbar navbar navbar navbar'
-		'menu main main main'
-		'footer footer footer footer';
+		'header header header header header'
+		'navbar navbar navbar navbar navbar'
+		'menu main main main main'
+		'footer footer footer footer footer';
 	grid-gap: 0px;
 	background-color: #000000;
 	padding: 10px;
@@ -45,7 +45,12 @@ header {
 section {
 	/* Defines a section in a document */
 }
-
+.sidemenu {
+	grid-area: menu;
+}
+.mainmenu {
+	grid-area: main;
+}
 
 div {
 	/* Defines a section in a document */
@@ -120,7 +125,12 @@ u {
 footer {
 	/* Defines a footer for a document or section */
 }
-
+.bottomfoot {
+	grid-area: footer;
+	overflow: hidden;
+	text-align: center;
+	white-space: nowrap;
+}
 
 
 

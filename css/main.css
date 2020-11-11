@@ -5,7 +5,23 @@ body {
 	margin: 0;
 	background-color: #000000;
 }
-
+.grid-container {
+	display: grid;
+	grid-template-areas: 
+		'header header header header'
+		'navbar navbar navbar navbar'
+		'menu main main main'
+		'footer footer footer footer';
+	grid-gap: 0px;
+	background-color: #000000;
+	padding: 10px;
+	margin: 0;
+}
+.grid-container div {
+	margin: 0
+	text-align: center;
+	font-size: 30px;
+}
 /* */
 h1 {
 	font-family: 'Press Start 2P', cursive;
