@@ -30,10 +30,23 @@ header {
 }
 /*TOPHEAD*/
 .tophead {
+	font-family: 'Press Start 2P', cursive;
 	grid-area: header;
 	text-align: center;
 	white-space: nowrap;
 	overflow: hidden;
+}
+.tophead h1 {
+	font-size: 40px;
+	font-family: 'Press Start 2P', cursive;
+	overflow: hidden;
+	position: relative;
+}
+.tophead p {
+	font-family: 'Press Start 2P', cursive;
+	text-align: center;
+	background-color: #000000;
+	color: #7FFF00;
 }
 .tophead img {
 	grid-area: image;
@@ -73,7 +86,6 @@ nav {
 	overflow: hidden;
 	list-style-type: none;
 	text-align: center;
-	
 	height: 40px;
 	position: sticky;
 	position: -webkit-sticky;
@@ -91,16 +103,15 @@ nav {
 	background-color: #7FF000;
 	color: black;
 }
+.topnav a.active {
+	background-color: #4caf50;
+	color: white;
+}
 .topnav a.active:hover {
 	background-color: #7FF000;
 	color: black;
 	text-shadow: 0px 0px 15px #333;
 }
-.topnav a.active {
-	background-color: #4caf50;
-	color: white;
-}
-
 
 button {
 	/* Defines a clickable button */

@@ -2,16 +2,16 @@
 body {
 	margin: 0
 	font-family: 'Press Start 2P', cursive;
-	margin: 0;
+	color: #7FF000;
 	background-color: #000000;
 }
 .grid-container {
 	display: grid;
 	grid-template-areas: 
-		'header header header header'
-		'navbar navbar navbar navbar'
-		'menu main main main'
-		'footer footer footer footer';
+		'header header header header header'
+		'navbar navbar navbar navbar navbar'
+		'menu main main main main'
+		'footer footer footer footer footer';
 	grid-gap: 0px;
 	background-color: #000000;
 	padding: 10px;
@@ -36,7 +36,6 @@ p {
 }
 
 img {
-	border-radius: 50%;	
 }
 /*====================================================================================================*/
 .main_page_paragraph {
@@ -57,7 +56,7 @@ img {
 .header {
 
 	font-family: 'Press Start 2P', cursive;
-	padding: 80px;
+	padding: 10px;
 	text-align: center;
 	background: #000000;
 	color: #7FFF00;
@@ -76,7 +75,10 @@ img {
 	background-color: #000000;
 	color: #7FFF00;
 }
-
+.header img {
+	border: 5px solid #7FF000;
+	border-radius: 50%;
+}
 /*====================================================================================================*/
 .navbar {
 	grid-area: navbar;
