@@ -2,21 +2,22 @@
 
 /* */
 body {
-		font-family: 'Press Start 2P', cursive;
-		margin: 0;
-		background-color: #000000;
+	font-family: 'Press Start 2P', cursive;
+	margin: 0;
+	background-color: #000000;
 }
 
 /* */
 h1 {
-		font-family: 'Press Start 2P', cursive;
+	font-family: 'Press Start 2P', cursive;
 }
 
 /* */
 p {
-		font-family: 'Press Start 2P', cursive;
-		color: rgba(255,255,255,.70);
-		background: #333;
+
+	font-family: 'Press Start 2P', cursive;
+	color: rgba(255,255,255,.70);
+	background: #333;
 }
 
 img {
@@ -24,6 +25,7 @@ img {
 }
 
 .header {
+
 	font-family: 'Press Start 2P', cursive;
 	padding: 80px;
 	text-align: center;
@@ -31,28 +33,50 @@ img {
 	color: #7FFF00;
 }
 .header h1 {
-		font-size: 40px;
-		font-family: 'Press Start 2P', cursive;
-		overflow: hidden;
-		position: relative;
+
+	font-size: 40px;
+	font-family: 'Press Start 2P', cursive;
+	overflow: hidden;
+	position: relative;
 }
 .header p {
-		font-family: 'Press Start 2P', cursive;
-		text-align: center;
-		background-color: #000000;
-		color: #7FFF00;
+
+	font-family: 'Press Start 2P', cursive;
+	text-align: center;
+	background-color: #000000;
+	color: #7FFF00;
 }
 
 /* */
 .navbar {
 
-		overflow: hidden;
-		position: sticky;
-		position: -webkit-sticky;
-		top: 0px;
-		height: 20px;
-		background-color: #7FFF00;
-		color: #7FFF00;
+	overflow: hidden;
+	position: sticky;
+	position: -webkit-sticky;
+	top: 0px;
+	height: 20px;
+	background-color: #7FFF00;
+	color: #7FFF00;
+}
+.navbar a {
+
+	float: left;
+	padding: 14px 16px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 17px;
+	color: #f2f2f2;
+}
+
+.navbar a:hover {
+
+	background-color: #ddd;
+	color: black;
+}
+
+.navbar a.active {
+	background-color: #4caf50;
+	color: white;
 }
 
 #parent {
