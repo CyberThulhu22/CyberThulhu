@@ -1,57 +1,58 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>CyberThulhu Main Page</title>
+	<title>Template Main Page</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="./css/main.css">
-	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" >
+	<link rel="stylesheet" type="text/css" href="./css/template.css">
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap">
 	<script type="text/javascript" src="./js/core.js"></script>
 </head>
-<body>
-	<!-- Header -->
-	<header class="header">
+<body class="grid-container">
+	
+	<!-- Header of the Main Page -->
+	<header class="tophead">
 		<div class="grid-item">
 			<img src="./images/Cthulhu_Cyber.PNG" height="200" width="200">
 			<h1><div id="demo"></div></h1>
-			<script type="text/javascript">	typeWriter(); </script>
-			<div id="parent">Security Research, Made Simple<div id="border"></div></div>
+			<script type="text/javascript">typeWriter();</script>
+			<div id="parent">Security Researcher // Hacker // Pentester...<div id="border"></div></div> <!-- 45 Characters -->
 		</div>
 	</header>
-	<!-- Navigation Bar-->
-	<nav class="navbar">
+	
+	<!-- Navigation Bar of the Main Page -->
+	<nav class="topnav">
 		<div class="grid-item">
-			<a class="active" href="https://cyberthulhu.net/">HOME</a>
-			<a href="https://cyberthulhu.net/blog.html">BLOG</a>
-			<a href="https://cyberthulhu.net/writeups.html">WRITEUPS</a>
-			<a href="#about_me">ABOUT</a>
-			<a href="#contact_me">CONTACT</a>
+			<a class="active" href="#Home">Home</a>
+			<a href="#Blog">Blog</a>
+			<a href="#Writeups">Writeups</a>
+			<a href="#About Me">About Me</a>
+			<a href="#Contact Me">Contact Me</a>
 		</div>
 	</nav>
 
+	<!-- Menu of the Main Page -->
 	<section class="sidemenu">
-		<div id="main_page_paragraph">
-			<p>This is my main page. It is a work in progress</p>
-		</div>
+	<div class="grid-item">
+		<p>This is side menu</p>
+	</div>
 	</section>
-
-	<div id="about_me">
-		<p>This is my About Me Section</p>
+	<!-- Main of the Main Page -->
+	<section class="mainmenu">
+	<div class="grid-item">
+		<p>This is main Menu</p>
 	</div>
-
-	<div id="contact_me">
-		<p>This is my Contact me Section</p>
-	</div>
-
-
-
+	</section>
+	<!-- Footer of the Main Page -->
 	<footer class="bottomfoot">
 		<div class="grid-item">
-			<p>My Footer Section</p>
-			<a href="#top">Top of the Page</a>		
+			<p>This is the footer</p>
+			<a href="#Home"><img src="./images/facebook" height="15" width="15"></a>
+			<a href="#Home"><img src="./images/twitter" height="15" width="15"></a>
+			<a href="#Home"><img src="./images/linkedin" height="15" width="15"></a>
+			<a href="#Home"><img src="./images/twitch" height="15" width="15"></a>
 		</div>
 	</footer>
-
 
 </body>
 </html>

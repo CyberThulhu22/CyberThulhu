@@ -1,9 +1,11 @@
-/* */
+/* Basic Tag CSS */
+
 body {
-	margin: 0
+	/* Defines the document's body */
+	margin: 0;
 	font-family: 'Press Start 2P', cursive;
+	background: #000000;
 	color: #7FF000;
-	background-color: #000000;
 }
 .grid-container {
 	display: grid;
@@ -24,115 +26,33 @@ body {
 }
 
 header {
-
+	/* Defines a header for a document or section */
 }
-.header {
+/*TOPHEAD*/
+.tophead {
 	font-family: 'Press Start 2P', cursive;
-	padding: 10px;
+	grid-area: header;
 	text-align: center;
-	background: #000000;
-	color: #7FFF00;
+	white-space: nowrap;
+	overflow: hidden;
 }
-.header h1 {
+.tophead h1 {
 	font-size: 40px;
 	font-family: 'Press Start 2P', cursive;
 	overflow: hidden;
 	position: relative;
 }
-
-.header p {
+.tophead p {
 	font-family: 'Press Start 2P', cursive;
 	text-align: center;
 	background-color: #000000;
 	color: #7FFF00;
 }
-
-.header img {
+.tophead img {
+	grid-area: image;
 	border: 5px solid #7FF000;
 	border-radius: 50%;
 }
-
-section {
-
-}
-.sidemenu {
-	grid-area: menu;
-}
-.mainmenu {
-	grid-area: main;
-}
-div {
-
-}
-
-nav {
-
-}
-.navbar {
-	grid-area: navbar;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-	list-style-type: none;
-	text-align: center;
-	height: 40px;
-	position: sticky;
-	position: -webkit-sticky;
-	background-color: #333;
-}
-.navbar a {
-	float: all;
-	padding: 14px 16px;
-	text-align: center;
-	text-decoration: none;
-	font-size: 17px;
-	color: #f2f2f2;
-}
-.navbar a:hover {
-	background-color: #7FF000;
-	color: black;
-}
-.navbar a.active {
-	background-color: #4caf50;
-	color: white;
-}
-.navbar a.active:hover {
-	background-color: #7FF000;
-	color: black;
-	text-shadow: 0px 0px 15px #333;
-}
-
-/* */
-h1 {
-	font-family: 'Press Start 2P', cursive;
-}
-
-/* */
-p {
-
-	font-family: 'Press Start 2P', cursive;
-	color: rgba(255,255,255,.70);
-	background: #333;
-}
-
-img {
-}
-
-.main_page_paragraph {
-	margin: 20;
-	padding: 100px 100px;
-}
-
-.about_me {
-	margin: 20;
-	padding: 100px 100px;
-}
-
-.contact_me {
-	margin: 20;
-	padding: 20px 20px;
-}
-
 #parent {
   height: 40px;
   white-space: nowrap;
@@ -144,7 +64,6 @@ img {
   color: rgba(255,255,255,.70);
   position:	relative;
 }
-
 #border {
   border-bottom: solid 3px rgba(0,255,0,.75);
   overflow: hidden;
@@ -152,24 +71,208 @@ img {
   right: 0px;
   width: 20px;
 }
-
 /* Animation */
 #parent {
-  animation: animated-text 2s steps(33,end) 1s 1 normal both;
+  animation: animated-text 2s steps(45,end) 0s 1 normal both;
 }
-
 #border {
-   animation: animated-cursor 600ms steps(33,end) infinite;
+   animation: animated-cursor 600ms steps(45,end) infinite;
 }
-
 /* text animation */
 @keyframes animated-text{
   from{width: 0px;}
-  to{width: 520px;}
+  to{width: 725px;}
 }
-
 /* cursor animations */
 @keyframes animated-cursor{
   from{width: 20px; border-bottom-color: rgba(0,255,0,.75);}
   to{width: 20px; border-bottom-color: transparent;}
+}
+
+
+
+section {
+	/* Defines a section in a document */
+}
+.sidemenu {
+	grid-area: menu;
+}
+.mainmenu {
+	grid-area: main;
+}
+
+div {
+	/* Defines a section in a document */
+}
+
+
+
+
+
+/* Navigation Tags */
+nav {
+	/* 	Defines navigation links */
+}
+/*TOPNAV*/
+.topnav {
+	grid-area: navbar;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	list-style-type: none;
+	text-align: center;
+	height: 40px;
+	position: sticky;
+	position: -webkit-sticky;
+	background-color: #333;
+}
+.topnav a {
+	float: all;
+	padding: 14px 16px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 17px;
+	color: #f2f2f2;
+}
+.topnav a:hover {
+	background-color: #7FF000;
+	color: black;
+}
+.topnav a.active {
+	background-color: #4caf50;
+	color: white;
+}
+.topnav a.active:hover {
+	background-color: #7FF000;
+	color: black;
+	text-shadow: 0px 0px 15px #333;
+}
+
+button {
+	/* Defines a clickable button */
+}
+
+
+option {
+	/* Defines an option in a drop-down list */
+}
+
+
+a {
+	/* Defines a hyperlink */
+}
+
+
+u {
+	/* Defines some text that is unarticulated and styled differently from normal text */
+}
+
+
+footer {
+	/* Defines a footer for a document or section */
+}
+.bottomfoot {
+	grid-area: footer;
+	overflow: hidden;
+	text-align: center;
+	white-space: nowrap;
+}
+
+
+
+
+
+
+
+/* Header Tags */
+
+h1 {
+	font-family: 'Press Start 2P', cursive;
+}
+
+h2 {
+}
+
+h3 {
+}
+
+h4 {
+}
+
+h5 {
+}
+
+h6 {
+}
+
+
+
+
+
+
+/* Article Specific Tags */
+article {
+	/* Defines an article */
+}
+
+blockquote {
+	/* Defines a section that is quoted from another source */
+}
+
+pre {
+	/* Defines preformatted text */
+}
+
+
+q {
+	/* Defines a short quotation */
+}
+
+
+p {
+	/* Defines a paragraph */
+}
+
+
+
+
+
+
+/* Tables and List Tags */
+table {
+	/* Defines a table */
+}
+
+
+tbody {
+	/* Groups the body content in a table */
+}
+
+
+tfoot {
+	/* Groups the footer content in a table */
+}
+
+
+th {
+	/* Defines a header cell in a table s*/
+}
+
+
+tr {
+	/* Defines a row in a table */
+}
+
+ol {
+	/* Defines an ordered list */
+}
+
+
+ul {
+	/* 	Defines an unordered list */
+}
+
+
+li {
+	/* Defines a list item */
 }
