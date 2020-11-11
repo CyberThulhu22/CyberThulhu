@@ -1,0 +1,197 @@
+/* Basic Tag CSS */
+
+body {
+	/* Defines the document's body */
+
+}
+
+
+header {
+	/* Defines a header for a document or section */
+
+}
+
+
+section {
+	/* Defines a section in a document */
+
+}
+
+
+div {
+	/* Defines a section in a document */
+
+}
+
+
+
+/* Navigation Tags */
+nav {
+	/* 	Defines navigation links */
+
+}
+/*TOPNAV BAR*/
+.topnav {
+	overflow: hidden;
+	background-color: #333;
+}
+.topnav a {
+	float: all;
+	padding: 14px 16px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 17px;
+	color: #f2f2f2;
+}
+.topnav a:hover {
+	background-color: #ddd;
+	color: black;
+}
+.topnav a.active {
+	background-color: #4caf50;
+	color: white;
+}
+
+
+button {
+	/* Defines a clickable button */
+
+}
+
+
+option {
+	/* Defines an option in a drop-down list */
+
+}
+
+
+a {
+	/* Defines a hyperlink */
+
+}
+
+
+u {
+	/* Defines some text that is unarticulated and styled differently from normal text */
+}
+
+
+footer {
+	/* Defines a footer for a document or section */
+
+}
+
+
+
+/* Header Tags */
+
+h1 {
+
+}
+
+
+h2 {
+
+}
+
+
+h3 {
+
+}
+
+
+h4 {
+
+}
+
+
+h5 {
+
+
+}
+
+
+h6 {
+
+}
+
+
+
+/* Article Specific Tags */
+
+article {
+	/* Defines an article */
+
+}
+
+blockquote {
+	/* Defines a section that is quoted from another source */
+
+}
+
+pre {
+	/* Defines preformatted text */
+
+}
+
+
+q {
+	/* Defines a short quotation */
+
+}
+
+
+p {
+	/* Defines a paragraph */
+
+}
+
+
+
+/* Tables and List Tags */
+
+table {
+	/* Defines a table */
+
+}
+
+
+tbody {
+	/* Groups the body content in a table */
+
+}
+
+
+tfoot {
+	/* Groups the footer content in a table */
+
+}
+
+
+th {
+	/* Defines a header cell in a table s*/
+
+}
+
+
+tr {
+	/* Defines a row in a table */
+
+}
+
+ol {
+	/* Defines an ordered list */
+
+}
+
+
+ul {
+	/* 	Defines an unordered list */
+
+}
+
+
+li {
+	/* Defines a list item */
+
+}
