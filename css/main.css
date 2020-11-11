@@ -170,19 +170,43 @@ u {
 
 footer {
 	/* Defines a footer for a document or section */
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
 }
 .bottomfoot {
 	grid-area: footer;
 	overflow: hidden;
 	text-align: center;
 	white-space: nowrap;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+}
+.fa {
+	padding: 20px;
+	font-size: 30px;
+	width: 50px;
+	text-align: center;
+	text-decoration: none;
+	margin: 5px 2px;
+}
+.fa:hover {
+	opacity: 0.7
 }
 
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
 
-
-
-
-
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
 
 /* Header Tags */
 
