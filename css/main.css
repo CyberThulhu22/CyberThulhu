@@ -170,48 +170,42 @@ u {
 
 footer {
 	/* Defines a footer for a document or section */
-	position: fixed;
+	position: absolute;
+	margin: 0 auto;
 	left: 0;
+	overflow: hidden;
 	bottom: 0;
+	height: 100px;
 	width: 100%;
+	min-height: 100%;
 	text-align: center;
+
 }
 .bottomfoot {
 	grid-area: footer;
 	overflow: hidden;
 	text-align: center;
 	white-space: nowrap;
-	position: fixed;
+	position: absolute;
 	left: 0;
 	bottom: 0;
+	height: 50px;
 	width: 100%;
+	margin: 0 auto;
 }
-.fa {
-	padding: 20px;
-	font-size: 30px;
-	width: 50px;
+
+.bottomfoot p {
+	overflow: hidden;
 	text-align: center;
-	text-decoration: none;
-	margin: 5px 2px;
-	border-radius: 50%;
-}
-.fa:hover {
-	opacity: 0.7
-	border-radius: 50%;
-}
+	white-space: nowrap;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	height: 50px;
+	width: 100%;
+	margin: 0 auto;
 
-.fa-twitter {
-  background: #55ACEE;
-  color: white;
-  border-radius: 50%;
 }
-
-.fa-linkedin {
-  background: #007bb5;
-  color: white;
-  border-radius: 50%;
-}
-
 /* Header Tags */
 
 h1 {
